@@ -1,0 +1,32 @@
+{
+  "name": "el-vue-schedule",
+  "version": "1.0.0",
+  "description": "schedule schedule by vue element-ui",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okool/el-vue-schedule.git"
+  },
+  "keywords": [
+    "schedule",
+    "vue",
+    "element-ui"
+  ],
+  "author": "Arkin",
+  "dependencies": {
+    
+  },
+  "peerDependencies": {
+    "vue": "^2.5.16",
+    "element-ui": "2.7.2",
+    "moment": "^2.24.0"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/okool/el-vue-schedule/issues"
+  },
+  "homepage": "https://github.com/okool/el-vue-schedule#readme"
+}
