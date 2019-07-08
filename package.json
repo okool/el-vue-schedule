@@ -1,30 +1,52 @@
 {
-  "name": "el-vue-schedule",
-  "version": "1.0.1",
-  "description": "schedule schedule by vue element-ui",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/okool/el-vue-schedule.git"
-  },
-  "keywords": [
-    "schedule",
-    "vue",
-    "element-ui"
-  ],
-  "author": "Arkin",
+  "name": "vue-lib",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "release": "bash build/release.sh"
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name main --dest lib packages/index.js"
   },
   "dependencies": {},
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.9.0",
+    "@vue/cli-plugin-eslint": "^3.9.0",
+    "@vue/cli-service": "^3.9.0",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-component": "^1.1.1",
+    "babel-plugin-jsx-v-model": "^2.0.3",
+    "element-ui": "^2.10.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue": "^2.6.10",
+    "vue-template-compiler": "^2.6.10"
+  },
   "peerDependencies": {
-    "vue": ">= 2.5.16",
-    "element-ui": ">= 2.7.2",
-    "moment": ">= 2.24.0"
+    "element-ui": "^2.8.0",
+    "moment": "^2.24.0"
   },
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/okool/el-vue-schedule/issues"
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
   },
-  "homepage": "https://github.com/okool/el-vue-schedule#readme"
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
 }

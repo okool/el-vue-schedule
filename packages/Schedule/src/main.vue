@@ -2,8 +2,9 @@
 import ScCalendar from "./ScCalendar.vue";
 import ScContent from "./ScContent.vue";
 import moment from "moment";
+
 export default {
-  name: "ACSchedule",
+  name: "AcSchedule",
   props: {
     title: {
       type: String,

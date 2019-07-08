@@ -45,12 +45,12 @@ export default {
           <thead>
             <tr>
               <th>
-                <div class="cell" style="height:61px;padding: 15px;">
+                <div class="cell" style="height:61px;">
                   <el-date-picker
                     type="month"
                     placeholder="选择月份"
                     size="mini"
-                    style="width:170px;"
+                    style="width:150px;margin: 15px 15px 15px 10px;"
                     clearable={false}
                     editable={false}
                     value={this.date}
