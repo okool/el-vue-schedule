@@ -62,7 +62,7 @@ change | 日期变化 | (date:选择的日期,moment格式)
 
 
 # 示例
-[查看>>](./dist/index.htm)
+[查看>>](https://okool.github.io/el-vue-schedule/dist/)
 
 # 效果图
 ![image](./examples/Static/demo1.png)
