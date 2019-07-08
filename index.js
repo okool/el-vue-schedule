@@ -1,4 +1,4 @@
-import ACSchedule from './src/components/Schedule'
+import ACSchedule from './src/components/Schedule/index.vue'
 
 /* istanbul ignore next */
 ACSchedule.install = function(Vue) {

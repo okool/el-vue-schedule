@@ -29,7 +29,6 @@ export default {
   },
   mounted(){
     this.date=this.month?this.month:moment().format("YYYY-MM")
-    console.log(this.date)
   },
   methods:{
     onChange(date){
@@ -87,7 +86,7 @@ export default {
 <style>
 .sc-content {
   width: 200px;
-  overflow: auto;
+  overflow-x: hidden;
   flex-basis: 200px;
   flex-grow: 0;
   flex-shrink: 0;

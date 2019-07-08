@@ -18,9 +18,9 @@
   },
   "dependencies": {},
   "peerDependencies": {
-    "vue": "^2.5.16",
-    "element-ui": "2.7.2",
-    "moment": "^2.24.0"
+    "vue": ">= 2.5.16",
+    "element-ui": ">= 2.7.2",
+    "moment": ">= 2.24.0"
   },
   "license": "ISC",
   "bugs": {
