@@ -1,6 +1,6 @@
 {
   "name": "el-vue-schedule",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "schedule schedule by vue element-ui",
   "main": "index.js",
   "scripts": {
@@ -16,9 +16,7 @@
     "element-ui"
   ],
   "author": "Arkin",
-  "dependencies": {
-    
-  },
+  "dependencies": {},
   "peerDependencies": {
     "vue": "^2.5.16",
     "element-ui": "2.7.2",
